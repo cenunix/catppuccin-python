@@ -2,7 +2,7 @@ from catppuccin.extras.rich_ctp import latte, mocha
 
 
 def test_mocha_colors() -> None:
-    assert mocha.styles["base"].color.triplet.hex == "#1e1e2e"  # type: ignore [union-attr]
+    assert mocha.styles["base"].color.triplet.hex == "#07070b"  # type: ignore [union-attr]
     assert mocha.styles["text"].color.triplet.hex == "#cdd6f4"  # type: ignore [union-attr]
 
 
