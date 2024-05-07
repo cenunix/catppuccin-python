@@ -5,8 +5,8 @@ from catppuccin.extras.pygments import LatteStyle, MochaStyle
 
 def test_mocha_style_colors() -> None:
     style = MochaStyle()
-    assert style.background_color == "#07070b"
-    assert style.styles[Text] == "#cdd6f4"
+    assert style.background_color == "#14151e"
+    assert style.styles[Text] == "#a6accd"
 
 
 def test_latte_style_colors() -> None:
