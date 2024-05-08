@@ -875,37 +875,39 @@ PALETTE = Palette(
                 identifier="rosewater",
                 accent=True,
                 order=0,
-                hex="#fae4fc",
-                rgb=RGB(r=250, g=228, b=252),
-                hsl=HSL(h=295, s=0.80, l=0.941),
+                hex="#f5e0dc",
+                rgb=RGB(r=245, g=224, b=220),
+                hsl=HSL(h=9.599999999999968, s=0.555555555555556, l=0.911764705882353),
             ),
             flamingo=Color(
                 name="Flamingo",
                 identifier="flamingo",
                 accent=True,
                 order=1,
-                hex="#fae4fc",
-                rgb=RGB(r=250, g=228, b=252),
-                hsl=HSL(h=295, s=0.80, l=0.941),
+                hex="#f2cdcd",
+                rgb=RGB(r=242, g=205, b=205),
+                hsl=HSL(h=0, s=0.587301587301587, l=0.8764705882352941),
             ),
             pink=Color(
                 name="Pink",
                 identifier="pink",
                 accent=True,
                 order=2,
-                hex="#fae4fc",
-                rgb=RGB(r=250, g=228, b=252),
-                hsl=HSL(h=295, s=0.80, l=0.941),
+                hex="#f5c2e7",
+                rgb=RGB(r=245, g=194, b=231),
+                hsl=HSL(
+                    h=316.4705882352941, s=0.7183098591549301, l=0.8607843137254902
+                ),
             ),
             mauve=Color(
                 name="Mauve",
                 identifier="mauve",
                 accent=True,
                 order=3,
-                hex="#fcc5e9",
-                rgb=RGB(r=252, g=197, b=233),
+                hex="#cba6f7",
+                rgb=RGB(r=203, g=166, b=247),
                 hsl=HSL(
-                    h=320.7, s=0.902, l=0.88
+                    h=267.4074074074074, s=0.8350515463917528, l=0.8098039215686275
                 ),
             ),
             red=Color(
@@ -913,10 +915,10 @@ PALETTE = Palette(
                 identifier="red",
                 accent=True,
                 order=4,
-                hex="#de95ba",
-                rgb=RGB(r=222, g=149, b=186),
+                hex="#f38ba8",
+                rgb=RGB(r=243, g=139, b=168),
                 hsl=HSL(
-                    h=329.6, s=0.525, l=0.727
+                    h=343.2692307692308, s=0.8124999999999998, l=0.7490196078431373
                 ),
             ),
             maroon=Color(
@@ -924,39 +926,39 @@ PALETTE = Palette(
                 identifier="maroon",
                 accent=True,
                 order=5,
-                hex="#de95ba",
-                rgb=RGB(r=222, g=149, b=186),
-                hsl=HSL(
-                    h=329.6, s=0.525, l=0.727
-                ),
+                hex="#eba0ac",
+                rgb=RGB(r=235, g=160, b=172),
+                hsl=HSL(h=350.4, s=0.6521739130434779, l=0.7745098039215685),
             ),
             peach=Color(
                 name="Peach",
                 identifier="peach",
                 accent=True,
                 order=6,
-                hex="#fffac2",
-                rgb=RGB(r=255, g=250, b=194),
-                hsl=HSL(h=55.1, s=1.00, l=0.88),
+                hex="#fab387",
+                rgb=RGB(r=250, g=179, b=135),
+                hsl=HSL(h=22.95652173913043, s=0.92, l=0.7549019607843137),
             ),
             yellow=Color(
                 name="Yellow",
                 identifier="yellow",
                 accent=True,
                 order=7,
-                hex="#fffac2",
-                rgb=RGB(r=255, g=250, b=194),
-                hsl=HSL(h=55.1, s=1.00, l=0.88),
+                hex="#f9e2af",
+                rgb=RGB(r=249, g=226, b=175),
+                hsl=HSL(
+                    h=41.35135135135135, s=0.8604651162790699, l=0.8313725490196078
+                ),
             ),
             green=Color(
                 name="Green",
                 identifier="green",
                 accent=True,
                 order=8,
-                hex="#5de4c7",
-                rgb=RGB(r=93, g=228, b=199),
+                hex="#a6e3a1",
+                rgb=RGB(r=166, g=227, b=161),
                 hsl=HSL(
-                    h=167.1, s=0.714, l=0.629
+                    h=115.45454545454544, s=0.5409836065573769, l=0.7607843137254902
                 ),
             ),
             teal=Color(
@@ -975,10 +977,10 @@ PALETTE = Palette(
                 identifier="sky",
                 accent=True,
                 order=10,
-                hex="#add7ff",
-                rgb=RGB(r=173, g=215, b=255),
+                hex="#89dceb",
+                rgb=RGB(r=137, g=220, b=235),
                 hsl=HSL(
-                    h=209.3, s=1.00, l=0.839
+                    h=189.18367346938774, s=0.7101449275362316, l=0.7294117647058823
                 ),
             ),
             sapphire=Color(
@@ -986,18 +988,20 @@ PALETTE = Palette(
                 identifier="sapphire",
                 accent=True,
                 order=11,
-                hex="#89ddff",
-                rgb=RGB(r=137, g=221, b=255),
-                hsl=HSL(h=197.3, s=1.00, l=0.769),
+                hex="#74c7ec",
+                rgb=RGB(r=116, g=199, b=236),
+                hsl=HSL(h=198.5, s=0.759493670886076, l=0.6901960784313725),
             ),
             blue=Color(
                 name="Blue",
                 identifier="blue",
                 accent=True,
                 order=12,
-                hex="#89ddff",
-                rgb=RGB(r=137, g=221, b=255),
-                hsl=HSL(h=197.3, s=1.00, l=0.769),
+                hex="#89b4fa",
+                rgb=RGB(r=137, g=180, b=250),
+                hsl=HSL(
+                    h=217.1681415929203, s=0.9186991869918699, l=0.7588235294117647
+                ),
             ),
             lavender=Color(
                 name="Lavender",
@@ -1015,10 +1019,10 @@ PALETTE = Palette(
                 identifier="text",
                 accent=False,
                 order=14,
-                hex="#a6accd",
-                rgb=RGB(r=166, g=172, b=205),
+                hex="#cdd6f4",
+                rgb=RGB(r=205, g=214, b=244),
                 hsl=HSL(
-                    h=230.8, s=0.281, l=0.727
+                    h=226.15384615384616, s=0.6393442622950825, l=0.8803921568627451
                 ),
             ),
             subtext1=Color(
@@ -1109,18 +1113,18 @@ PALETTE = Palette(
                 identifier="base",
                 accent=False,
                 order=23,
-                hex="#14151e",
-                rgb=RGB(r=20, g=21, b=30),
-                hsl=HSL(h=234, s=0.20, l=0.098),
+                hex="#07070b",
+                rgb=RGB(r=7, g=7, b=11),
+                hsl=HSL(h=240, s=0.22227272727272727, l=0.03537450980392157),
             ),
             mantle=Color(
                 name="Mantle",
                 identifier="mantle",
                 accent=False,
                 order=24,
-                hex="#14151e",
-                rgb=RGB(r=20, g=21, b=30),
-                hsl=HSL(h=234, s=0.20, l=0.098),
+                hex="#07070b",
+                rgb=RGB(r=7, g=7, b=11),
+                hsl=HSL(h=240, s=0.22227272727272727, l=0.03537450980392157),
 
             ),
             crust=Color(
@@ -1128,9 +1132,9 @@ PALETTE = Palette(
                 identifier="crust",
                 accent=False,
                 order=25,
-                hex="#14151e",
-                rgb=RGB(r=20, g=21, b=30),
-                hsl=HSL(h=234, s=0.20, l=0.098),
+                hex="#07070b",
+                rgb=RGB(r=7, g=7, b=11),
+                hsl=HSL(h=240, s=0.22227272727272727, l=0.03537450980392157),
             ),
         ),
     ),
